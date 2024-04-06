@@ -4,6 +4,74 @@
     list-style-type: none;
 }
 
-#secao2 img {
-    height: 200px;
+header {
+    padding: 30px;
+    background-color: #808080;
+}
+
+.naoordenada {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+.naoordenada li a {
+    text-decoration: none;
+    color: white;
+}
+
+.naoordenada li a:hover {
+    color: aqua;
+    transition: 1s;
+}
+
+.naoordenada li {
+    margin-left: 20px;
+}
+
+#secao1 {
+    padding: 200px;
+    background: linear-gradient(90deg, rgba(188,187,217,1) 0%, rgba(195,201,208,1) 54%, rgba(40,116,131,1) 96%);
+}
+
+#secao1 h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+#secao1 a button {
+    padding: 20px;
+    border-radius: 30px;
+    width: 200px;
+    cursor: pointer;
+    border-color: aqua;
+    font-size: 20px;
+}
+
+#secao2-app {
+    padding: 150px;
+    background: linear-gradient(90deg, rgba(188,187,217,1) 0%, rgba(195,201,208,1) 54%, rgba(40,116,131,1) 96%);
+    display: flex;
+    justify-content: space-around;
+}
+
+#secao2-app button {
+    padding: 20px;
+    border-radius: 100px;
+    width: 210px;
+    cursor: pointer;
+    border-color: aqua;
+    font-size: 20px;
+}
+
+#secao2-app div {
+    font-size: 40px;
+}
+
+#secao2-app div img {
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: -200px;
 }
